@@ -6,3 +6,6 @@
 - JavaScript
 - Cloud Firestore (Banco de Dados do Firebase)
 - Firebase Authentication (Recurso de Autenticação de usuários do Firebase)
+
+### Principal ponto a ser aprimorado:
+- Responsividade
