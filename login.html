@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/login.css">
+  <link rel="stylesheet" href="./assets/css/resp.css">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="shortcut icon" href="./assets/img/crud.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Formulário de Cadastro</title>
+</head>
+
+<body>
+  <video class="main_background" autoplay muted loop>
+    <source src="assets\video\background_video.mp4" type="video/mp4" />
+  </video>
+  <div class="container">
+    <div class="form_img">
+      <img src="./assets/img/signup.svg" alt="">
+    </div>
+
+    <div class="form">
+      <form action="#">
+        <div class="form_header">
+
+          <div class="title">
+            <h1>Login</h1>
+          </div>
+
+        </div>
+
+      <div class="input_group">
+
+        <div class="input_box">
+            <label for="email">E-mail</label>
+            <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required autocomplete="off">
+        </div>
+        
+        <div class="input_box">
+            <label for="password">Senha</label>
+            <input id="password" type="password" name="password" placeholder="Digite sua senha" required autocomplete="off">
+        </div>
+      
+        <div>
+          <button
+            type="button"
+            class="bt"
+            id="login-button"
+            onclick="login()"
+          >
+            Entrar
+          </button>
+          
+          <div id="opções">
+            <br>
+            <div>
+              <button type="button" class="rec" id="recover-password-button" onclick="recuperarSenha()" disable="true">Recuperar senha</button>
+            </div>
+
+          </div>
+        </div>
+
+    </form>
+    </div>
+  </div>
+</body>
+<script src="./assets/Js/login.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-auth-compat.js"></script>
+<script src="./assets/Js/firebase-init.js"></script>
+</script>
+</html>

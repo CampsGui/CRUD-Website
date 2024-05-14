@@ -1,0 +1,170 @@
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(221, 2, 45);
+}
+
+.main_background {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+}
+
+.container{
+  width: 80%;
+  height: 80vh;
+  display: flex;
+  box-shadow: 7px 4px 10px rgba(0, 0, 0, 0.63);
+
+}
+
+.form_img{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgb(0, 0, 0), rgb(160, 0, 0));
+  padding: 1rem;
+}
+
+.form_img img{
+  width: 31rem;
+}
+
+.form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 3rem;
+}
+
+.form_header {
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.login_btn {
+  display: flex;
+  align-items: center;
+}
+
+.login_btn a{
+  border: none;
+  background-color: rgb(221, 2, 2);
+  padding: 0.4rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(231, 231, 231);
+  font-weight: 500;
+}
+
+.login_btn a:hover{
+background-color: rgb(255, 0, 51);
+}
+
+.form_header h1::after {
+  content: '';
+  display: block;
+  width: 6.5rem;
+  height: 0.2rem;
+  background-color: rgb(221, 2, 2);
+  margin: 0 auto;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.input_group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.input_box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.1rem;
+}
+
+.input_box input {
+  margin: 0.6rem 0;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px #0000001c;
+  font-size: 0.8rem;
+}
+
+.input_box input:hover {
+  background-color: #eeeeee75;
+}
+
+.input_box input:focus-visible {
+  outline: 1px solid rgb(255, 0, 51);
+}
+
+.input_box label,
+.gender_title h6 {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #000000c0;
+}
+
+.input_box input::placeholder {
+  color: #000000be;
+}
+
+.gender_group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.65rem;
+  padding: 0 .5rem;
+}
+
+.gender_input {
+  display: flex;
+  align-items: center;
+}
+
+.gender_input input {
+  margin-right: 0.35rem;
+}
+
+.gender_input label {
+  font-size: 0.81rem;
+  font-weight: 600;
+  color: #000000c0;
+}
+
+.bt {
+  width: 100%;
+  margin-top: 2.5rem;
+  border: none;
+  color: #fff;
+  background-color: rgb(221, 2, 2);
+  padding: 0.62rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bt:hover {
+  background-color: rgb(255, 0, 51);
+}
+
+.bt a {
+  text-decoration: none;
+  font-size: 0.93rem;
+  font-weight: 500;
+  color: #fff;
+}

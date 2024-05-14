@@ -1,0 +1,107 @@
+.main_background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* Para garantir que o vídeo fique atrás do conteúdo */
+}
+
+.container {
+  background-color: rgb(255, 255, 255); /* Cor de fundo branca com transparência */
+  border-radius: 10px; /* Borda arredondada */
+  padding: 20px; /* Espaçamento interno */
+  max-width: 800px; /* Limitando a largura do container */
+  margin: 100px auto; /* Centralizando e adicionando margem superior */
+  height: 70vh;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilizando o título (h1) */
+h1 {
+  text-align: center;
+  margin-top: 30px; /* Ajuste para centralizar verticalmente */
+  color: rgb(0, 0, 0); /* Cor do texto */
+}
+
+/* Estilizando o parágrafo (p) */
+p {
+  text-align: center;
+  color: rgb(0, 0, 0); /* Cor do texto */
+  max-width: 800px; /* Limitando a largura do parágrafo */
+  margin: 0 auto; /* Centralizando horizontalmente */
+  margin-top: 4.5vh;
+  padding: 0 20px; /* Adicionando um pouco de espaçamento nas laterais */
+  font-size: 1.25em;
+  font-weight: 500;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 45px; /* Ajuste para centralizar verticalmente */
+  color: rgb(0, 0, 0); /* Cor do texto */
+}
+
+.hardSkills{
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  text-align: center;
+  padding-left: 15px;
+  display: grid;
+  grid-template-columns: repeat(4, 165px);
+  grid-gap: 20px;
+  border-radius: 200px;
+  justify-content: center;
+}
+
+.Skills{
+  color: rgb(0, 0, 0);
+  border-radius: 200px;
+  padding-top: 40px;
+  padding-bottom: 25px;
+}
+
+.index_btn {
+  display: flex;
+  align-items: center;
+  margin-left: 215px;
+  margin-top: 20px;
+}
+
+.index_btn a{
+  border: none;
+  background-color: rgb(221, 2, 2);
+  padding: 0.8rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(231, 231, 231);
+  font-weight: 500;
+  font-size: 1.15em;
+}
+
+.index_btn a:hover{
+background-color: rgb(255, 0, 51);
+}
+
+.login_btn {
+  display: flex;
+  align-items: center;
+  margin-left: 70px;
+}
+
+.login_btn a{
+  border: none;
+  background-color: rgb(221, 2, 2);
+  padding: 0.8rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(231, 231, 231);
+  font-weight: 500;
+}
+
+.login_btn a:hover{
+background-color: rgb(255, 0, 51);
+}

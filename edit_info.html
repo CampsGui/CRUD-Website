@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/resp.css">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="shortcut icon" href="./assets/img/crud.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Formulário de Cadastro</title>
+</head>
+
+<body>
+  <video class="main_background" autoplay muted loop>
+    <source src="assets\video\background_video.mp4" type="video/mp4" />
+  </video>
+  <div class="container">
+    <div class="form_img">
+      <img src="./assets/img/signup.svg" alt="">
+    </div>
+
+    <div class="form" autocomplete="off">
+      <form action="#">
+        <div class="form_header">
+
+          <div class="title">
+            <h1>Editar Dados</h1>
+          </div>
+
+          <div class="login_btn">
+            <a href="login.html">Login</a>
+          </div>
+          
+          <div class="login_btn">
+            <a href="home.html">Voltar</a>
+          </div>
+
+        </div>
+
+      <div class="input_group">
+
+        <div class="input_box">
+            <label for="Primeiro_Nome">Primeiro Nome</label>
+            <input id="Primeiro_Nome" type="text" name="Primeiro_Nome" placeholder="Digite seu primeiro nome" required>
+        </div>
+
+        <div class="input_box">
+            <label for="Sobrenome">Sobrenome</label>
+            <input id="Sobrenome" type="text" name="Sobrenome" placeholder="Digite seu sobrenome" required>
+        </div>
+
+        <div class="input_box">
+            <label for="Email">E-mail</label>
+            <input id="Email" type="email" name="Email" placeholder="Digite seu e-mail" required>
+        </div>
+
+        <div class="input_box">
+            <label for="Celular">Celular</label>
+            <input id="Celular" type="tel" name="Celular" placeholder="(xx) xxxx-xxxx" required>
+        </div>
+        
+        <div class="input_box">
+            <label for="password">Senha</label>
+            <input id="password" type="password" name="password" placeholder="(minímo 6 caracteres)" required>
+        </div>
+
+      </div>
+
+      <div class="gender_inputs">
+        <div class="gender_title">
+          <h6>Gênero</h6>
+        </div>
+
+        <div class="gender_group">
+            <div class="gender_input">
+                <input id="Feminino" type="radio" name="Genero" value="Feminino">
+                <label for="Feminino">Feminino</label>
+            </div>
+
+          <div class="gender_input">
+              <input id="Masculino" type="radio" name="Genero" value="Masculino">
+              <label for="Masculino">Masculino</label>
+          </div>
+
+          <div class="gender_input">
+              <input id="Outros" type="radio" name="Genero" value="Outros">
+              <label for="Outros">Outros</label>
+          </div>
+        </div>
+      </div>
+      
+      <div>
+        <button type="button" class="bt" onclick="update()" id="update-button"> Atualizar </button>
+      </div>
+
+    </form>
+    </div>
+  </div>
+</body>
+
+<script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-firestore-compat.js"></script>
+<script src="./assets/Js/firebase-init.js"></script>
+<script src="./assets/Js/auth-guard.js"></script>
+<script src="./assets/Js/edit_info.js"></script>
+</script>
+</html>

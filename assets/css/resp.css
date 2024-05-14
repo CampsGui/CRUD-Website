@@ -1,0 +1,306 @@
+@media screen and (max-width: 1330px) {
+    .container .form_img{
+        width: 100%;
+        display: block;
+    }
+    .container {
+        width: 50%;
+        display: block;
+    }
+    .main_background {
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        height: 150vh;
+        width: 100%;
+    }
+    .form {
+        width: 100%;
+    }
+    .input_group {
+        flex-direction: column;
+        z-index: 5;
+        padding-right: 5rem;
+        max-height: 10rem;
+        overflow-y: scroll;
+        flex-wrap: nowrap;
+    }
+    .gender_inputs {
+        margin-top: 2rem;
+    }
+  
+    .gender_group {
+        flex-direction: column;
+    }
+  
+    .gender_title h6 {
+        margin: 0;
+    }
+  
+    .gender_input {
+        margin-top: 0.5rem;
+    }
+
+    .bt {
+        margin-top: 1rem;
+    }
+
+    .login_btn{
+        margin-left: 2rem;
+    }
+  }
+  
+  @media screen and (max-width: 1064px) {
+    .container {
+        width: 50%;
+    }
+  
+    .input_group {
+        flex-direction: column;
+        z-index: 5;
+        padding-right: 5rem;
+        max-height: 10rem;
+        overflow-y: scroll;
+        flex-wrap: nowrap;
+    }
+  
+    .gender_inputs {
+        margin-top: 2rem;
+    }
+  
+    .gender_group {
+        flex-direction: column;
+    }
+  
+    .gender_title h6 {
+        margin: 0;
+    }
+  
+    .gender_input {
+        margin-top: 0.5rem;
+    }
+
+    .bt {
+        margin-top: 1rem;
+    }
+
+    .login_btn{
+        margin-left: 2rem;
+    }
+
+    .title{
+        font-size: 1em;
+    }
+  }
+
+@media screen and (max-height: 720px) {
+    .form_img{
+        display: none;
+    }
+    .container {
+        width: 50%;
+    }
+    .form {
+        width: 100%;
+    }
+    .title{
+        font-size: 1em;
+    }
+    .main_background {
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        height: 150vh;
+        width: 200%;
+    }
+  }
+
+@media screen and (max-height: 700px) {
+    .form_img{
+        display: none;
+    }
+    .container {
+        width: 50%;
+    }
+    .form {
+        width: 100%;
+    }
+    .title{
+        font-size: 1em;
+    }
+    .main_background {
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        height: 150vh;
+        width: 200%;
+    }
+  }
+
+  @media screen and (max-height: 670px) {
+    .container {
+        width: 50%;
+    }
+  
+    .input_group {
+        flex-direction: column;
+        z-index: 5;
+        padding-right: 5rem;
+        max-height: 10rem;
+        overflow-y: scroll;
+        flex-wrap: nowrap;
+    }
+  
+    .gender_inputs {
+        margin-top: 2rem;
+    }
+  
+    .gender_group {
+        flex-direction: column;
+    }
+  
+    .gender_title h6 {
+        margin: 0;
+    }
+  
+    .gender_input {
+        margin-top: 0.5rem;
+    }
+
+    .bt {
+        margin-top: 0.5rem;
+    }
+    .title{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .container {
+        width: 100%; /* Ajustando para ocupar toda a largura */
+    }
+    .input_group {
+        padding-right: 2rem; /* Reduzindo o padding para caber na tela */
+    }
+    .title{
+        font-size: 12px;
+    }
+    .main_background {
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        height: 150vh;
+        width: 200%;
+    }
+}
+ 
+@media screen and (max-width: 412px) {
+    .form_header .title{
+        font-size: 9.5px;
+    }
+}
+ 
+@media screen and (max-width: 375px) {
+    .container .form_img img{
+        width: 100%;
+        display: block;
+        
+    }
+    .container {
+        width: 50%;
+        display: block;
+        margin-top: 25vh;
+        margin-left: 18vh;
+        margin-right: 2vh;
+    }
+    .input_group {
+        padding-right: 1rem; /* Reduzindo ainda mais o padding */
+    }
+    .title{
+        font-size: 12px;
+    }
+    .main_background {
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        height: 150vh;
+        width: 200%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .container {
+        width: 100%; /* Ajustando para ocupar toda a largura */
+    }
+    .input_group {
+        padding-right: 0; /* Removendo completamente o padding */
+    }
+    .form_header .title{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 344px) {
+    .container {
+        width: 100%; /* Ajustando para ocupar toda a largura */
+    }
+    .input_group {
+        padding-right: 0; /* Removendo completamente o padding */
+    }
+    .form_header .title{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        width: 100%; /* Ajustando para ocupar toda a largura */
+    }
+    .input_group {
+        padding-right: 0; /* Removendo completamente o padding */
+    }
+    .title{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .container .form_img img{
+        width: 100%;
+        display: block;
+    }
+
+    .container {
+        width: 100%; /* Ajustando para ocupar toda a largura */
+        display: block;
+        margin-top: 25vh;
+        margin-left: 13.5vh;
+    
+    }
+    .input_group {
+        padding-right: 2rem; /* Reduzindo o padding para caber na tela */
+    }
+    .title{
+        font-size: 12px;
+    }
+
+    .main_background {
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        height: 150vh;
+        width: 150%;
+    }
+}
+ 
+@media screen and (max-width: 540px) {
+    .container {
+        width: 100%; /* Ajustando para ocupar toda a largura */
+    }
+    .input_group {
+        padding-right: 1.5rem; /* Reduzindo ainda mais o padding */
+    }
+    .title{
+        font-size: 12px;
+    }
+}
